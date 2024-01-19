@@ -2,8 +2,8 @@ import { Breadcrumbs, Link, Typography, Box } from '@mui/material'
 import NavigateNext from '@mui/icons-material/NavigateNext'
 
 export const MyBreadcrumbs = () => {
-    return <Box
-        m={2}
+    return <div
+    // m={2}
     >
         <Breadcrumbs
             aria-label='breadcrumb'
@@ -16,7 +16,7 @@ export const MyBreadcrumbs = () => {
             <Link underline='hover' href='#'>Accessories</Link>
             <Typography color={'text.primary'}>Shoes</Typography>
         </Breadcrumbs>
-    </Box>
+    </div>
 
 
 
